@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "analisis-datos-estrellas"
+version = "0.1.0"
+description = "Práctica 2 — Análisis Exploratorio de Datos con Python (ECFM/USAC)"
+authors = ["Estudiante USAC"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^1.26"
+pandas = "^2.2"
+matplotlib = "^3.8"
+seaborn = "^0.13"
+jupyter = "^1.0"
+jupyterlab = "^4.0"
+ipykernel = "^6.29"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
